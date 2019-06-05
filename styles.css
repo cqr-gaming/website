@@ -1,0 +1,129 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-image: url('img/cqr_banner.jpg');
+     background-size: 100%;
+    background-position: center;
+    margin-bottom: 2%;
+    padding-bottom: 12%
+}
+
+.row{
+	text-align: right;
+}
+
+.form-group{
+    width:65%;
+    font-family:'Open Sans', verdana, sans-serif;
+    color:white;
+}
+
+.articleContainer{
+    position:relative;
+}
+
+.articleText{
+  position: absolute;
+  background-color: black;
+  bottom:0;
+  text-align: center;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+}
+
+nav{
+    margin-left: 55%;
+}
+
+form{
+    margin-top:5%;
+}
+
+.form-check-label{
+    padding-left: 7%;
+}
+
+#agreement{
+    margin-left: 1%;
+    width: 2%;
+    height: 2%;
+}
+
+.overlay{
+	position: relative;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	transition: .5s ease;
+	z-index: 2;
+	opacity: 0.5;
+}
+
+.overlay:hover{
+	background-color: #7F3333;
+	opacity: 1;
+}
+
+p{ /*selector*/
+    font-family:'Open Sans', verdana, sans-serif; /*font stack means multiple fonts because not every browser supports every font*/
+    font-size:16px;
+    line-height:1.5;
+	text-align:justify;
+}
+
+h1{
+	font-family:'Open Sans', verdana, sans-serif;
+	font-weight:500;
+	font-size: 50px;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family:'Open Sans', verdana, sans-serif;
+	font-weight:500;
+	font-size:26px;
+ }
+ 
+li{
+    display:inline;
+    padding-right:25px;
+}
+
+a:link{
+	text-decoration: none;
+	font-size:20px;
+	color:white;
+	opacity: 1;
+}
+
+a:hover{
+	color:white;
+}
+
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.btnLink{
+	border-bottom: 2px solid black;
+}
+
+footer{
+     background-image: url('img/cqr_banner.jpg');
+     background-size: 100%;
+     background-position: center;
+}
+
+video {
+  position: fixed;
+  max-width: 50%;
+  max-height: 50%;
+
+}
+
+	
